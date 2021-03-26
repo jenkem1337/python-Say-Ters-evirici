@@ -1,4 +1,4 @@
-def reverseNumber(n):
+def numberReverser(n):
     liste = list(n) #sayı listeye alınır
     liste.reverse() #sayı ters çevrilir
     listToStr = "".join(map(str, liste)) #listeden string hale geçer
@@ -7,5 +7,5 @@ def reverseNumber(n):
 
 while True:
 	Number = input("Lütfen bir sayı giriniz : ")
-	reverseNumber(Number)
+	numberReverser(Number)
     
